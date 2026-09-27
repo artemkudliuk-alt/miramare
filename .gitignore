@@ -1,0 +1,18 @@
+# dependencies and builds
+node_modules/
+site/dist/
+
+# raw production media — the web-ready videos live in site/public/video (tools/encode.sh)
+/*.mp4
+/*.png
+/*.jpg
+frames/
+refs/
+tools/shots/
+shotlist.html
+intro_refs.html
+
+# local tooling
+.claude/
+.playwright-mcp/
+*.log
